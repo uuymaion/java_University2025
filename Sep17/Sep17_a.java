@@ -1,0 +1,14 @@
+import java.util.*;
+
+public class Sep17_a{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int how = sc.nextInt();
+
+        for(int i=0;i<how;i++){
+            int a = sc.nextInt();
+            System.out.println(a + " is the input number");
+        }
+        sc.close();
+    }
+}
