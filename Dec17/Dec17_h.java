@@ -9,7 +9,7 @@ public class Dec17_h{
             for(int j=0;j<howSoldier;j++){
                 arr[j] = sc.nextInt();
             }
-            Long count = 0L;
+            Long count = 0L; // 10的5次方會爆
             Long zeroScore = 0L;
             Long oneScore = 0L;
 
@@ -41,4 +41,5 @@ public class Dec17_h{
             
         }    
     }
+
 }
